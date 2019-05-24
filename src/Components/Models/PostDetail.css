@@ -1,0 +1,23 @@
+.post-detail{
+    color: sandybrown;
+    padding: 5px;
+}
+
+.fadeOut {
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+    transition: visibility 0s linear 300ms, opacity 50ms;
+}
+.fadeIn {
+    visibility: visible;
+    opacity: 1;
+    position:static;
+    transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+.btn-open {
+    position: relative;
+    top: -20px;
+    float: right;
+}

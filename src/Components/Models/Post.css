@@ -1,0 +1,12 @@
+.post-item {
+    background: transparent;
+    border-radius: 8px;
+    height: auto;    
+    width: 50%;
+    margin: 15px;
+    border: 1px solid white;
+    color: white;
+    padding: 12px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
